@@ -1,0 +1,834 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="font/bootstrap-icons.min.css">
+    <script src="font/bootstrap-icons.json"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Online shop</title>
+</head>
+
+<body>
+    <!--NAV-->
+    <nav class="navbar navbar-expand-md" id="navbar">
+        <a class="navbar-brand" href="#" id="logo"><img src="img/logo.png" alt="..." width="30px"
+                style="margin-bottom:10px ;margin-right: 10px;">Online shop</a>
+
+        <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar"><span><img
+                    src="img/menu.png" alt="..." width="20px"></span></button>
+
+        <div class="collapse navbar-collapse" id="collapsibleNavbar">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Category</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Shop</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">About Us</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Contact Us</a>
+                </li>
+            </ul>
+        </div>
+        <div class="icons">
+            <img src="img/search.png" alt="..." width="16px">
+            <img src="img/user.png" alt="..." width="20px">
+            <img src="img/shopping-cart (3).png" alt="..." width="20px">
+        </div>
+    </nav>
+    <!--END NAV-->
+
+    <!--HOME SECTION-->
+    <section class="home" id="home">
+        <div class="content">
+            <h3>The Biggest Sale</h3>
+            <h2>Category <span class="changecontent"></span>
+            </h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur, voluptatem
+                <br>Lorem ipsum dolor sit amet.
+            </p>
+            <h5>50% OFF</h5>
+            <a href="#" class="btn">Add Cart</a>
+        </div>
+        <div class="img">
+            <img src="img/background.png" alt="...">
+        </div>
+    </section>
+    <!--END HOME SECTION-->
+
+    <!--CARDS-->
+    <div class="container" style="margin-top: 50px;">
+        <div class="row" id="t-cards">
+            <div class="col-md-4 py-3 py-md-0">
+                <div class="card">
+                    <img src="img/img1.png" alt="...">
+                </div>
+            </div>
+            <div class="col-md-4 py-3 py-md-0">
+                <div class="card">
+                    <img src="img/img2.png" alt="...">
+                </div>
+            </div>
+            <div class="col-md-4 py-3 py-md-0">
+                <div class="card">
+                    <img src="img/img3.png" alt="...">
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--END CARDS-->
+
+
+    <!--Product cards-->
+    <div class="container" id="product-cards">
+        <h1 class="text-center">PRODUCT</h1>
+        <div class="row">
+            <div class="col-md-3 py-3 py-md-0">
+                <div class="card">
+                    <img src="img/shirt1.png" alt="...">
+                    <div class="overlay">
+                        <button type="button" class="btn btn-secondary" title="Quick Shop"><i><img src="img/views.png"
+                                    alt="..." width="30px"></i></button>
+                        <button type="button" class="btn btn-secondary" title="Add to Wishlist"><i><img
+                                    src="img/heart.png" alt="..." width="30px"></i></button>
+                        <button type="button" class="btn btn-secondary" title="Add to cart"><i><img
+                                    src="img/add carts.png" alt="..." width="30px"></i></button>
+                    </div>
+                    <div class="card-body">
+                        <h3 class="text-center">Shirt1</h3>
+                        <div class="star text-center">
+                            <i class="bi bi-star checked"></i><i class="bi bi-star checked"></i><i
+                                class="bi bi-star checked"></i><i class="bi bi-star checked"></i><i
+                                class="bi bi-star checked"></i>
+                        </div>
+                        <h5>$100.50 <span><i><img src="img/add.png" alt="..." width="20px"></i></span></h5>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 py-3 py-md-0">
+                <div class="card">
+                    <img src="img/shirt2.png" alt="...">
+                    <div class="overlay">
+                        <button type="button" class="btn btn-secondary" title="Quick Shop"><i><img src="img/views.png"
+                                    alt="..." width="30px"></i></button>
+                        <button type="button" class="btn btn-secondary" title="Add to Wishlist"><i><img
+                                    src="img/heart.png" alt="..." width="30px"></i></button>
+                        <button type="button" class="btn btn-secondary" title="Add to cart"><i><img
+                                    src="img/add carts.png" alt="..." width="30px"></i></button>
+                    </div>
+                    <div class="card-body">
+                        <h3 class="text-center">Shirt2</h3>
+                        <div class="star text-center">
+                            <i class="bi bi-star checked"></i><i class="bi bi-star checked"></i><i
+                                class="bi bi-star checked"></i><i class="bi bi-star checked"></i><i
+                                class="bi bi-star checked"></i>
+                        </div>
+                        <h5>$150.50 <span><i><img src="img/add.png" alt="..." width="20px"></i></span></h5>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 py-3 py-md-0">
+                <div class="card">
+                    <img src="img/shirt3.png" alt="...">
+                    <div class="overlay">
+                        <button type="button" class="btn btn-secondary" title="Quick Shop"><i><img src="img/views.png"
+                                    alt="..." width="30px"></i></button>
+                        <button type="button" class="btn btn-secondary" title="Add to Wishlist"><i><img
+                                    src="img/heart.png" alt="..." width="30px"></i></button>
+                        <button type="button" class="btn btn-secondary" title="Add to cart"><i><img
+                                    src="img/add carts.png" alt="..." width="30px"></i></button>
+                    </div>
+                    <div class="card-body">
+                        <h3 class="text-center">Shirt3</h3>
+                        <div class="star text-center">
+                            <i class="bi bi-star checked"></i><i class="bi bi-star checked"></i><i
+                                class="bi bi-star checked"></i><i class="bi bi-star checked"></i><i
+                                class="bi bi-star checked"></i>
+                        </div>
+                        <h5>$500.10 <span><i><img src="img/add.png" alt="..." width="20px"></i></span></h5>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 py-3 py-md-0">
+                <div class="card">
+                    <img src="img/shirt4.png" alt="...">
+                    <div class="overlay">
+                        <button type="button" class="btn btn-secondary" title="Quick Shop"><i><img src="img/views.png"
+                                    alt="..." width="30px"></i></button>
+                        <button type="button" class="btn btn-secondary" title="Add to Wishlist"><i><img
+                                    src="img/heart.png" alt="..." width="30px"></i></button>
+                        <button type="button" class="btn btn-secondary" title="Add to cart"><i><img
+                                    src="img/add carts.png" alt="..." width="30px"></i></button>
+                    </div>
+                    <div class="card-body">
+                        <h3 class="text-center">Shirt4</h3>
+                        <div class="star text-center">
+                            <i class="bi bi-star checked"></i><i class="bi bi-star checked"></i><i
+                                class="bi bi-star checked"></i><i class="bi bi-star checked"></i><i
+                                class="bi bi-star checked"></i>
+                        </div>
+                        <h5>$300.20 <span><i><img src="img/add.png" alt="..." width="20px"></i></span></h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+         <div class="row">
+            <div class="col-md-3 py-3 py-md-0">
+                <div class="card">
+                    <img src="img/pant1.png" alt="...">
+                    <div class="overlay">
+                        <button type="button" class="btn btn-secondary" title="Quick Shop"><i><img src="img/views.png"
+                                    alt="..." width="30px"></i></button>
+                        <button type="button" class="btn btn-secondary" title="Add to Wishlist"><i><img
+                                    src="img/heart.png" alt="..." width="30px"></i></button>
+                        <button type="button" class="btn btn-secondary" title="Add to cart"><i><img
+                                    src="img/add carts.png" alt="..." width="30px"></i></button>
+                    </div>
+                    <div class="card-body">
+                        <h3 class="text-center">Pant1</h3>
+                        <div class="star text-center">
+                            <i class="bi bi-star checked"></i><i class="bi bi-star checked"></i><i
+                                class="bi bi-star checked"></i><i class="bi bi-star checked"></i><i
+                                class="bi bi-star checked"></i>
+                        </div>
+                        <h5>$100.50 <span><i><img src="img/add.png" alt="..." width="20px"></i></span></h5>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 py-3 py-md-0">
+                <div class="card">
+                    <img src="img/pant2.png" alt="...">
+                    <div class="overlay">
+                        <button type="button" class="btn btn-secondary" title="Quick Shop"><i><img src="img/views.png"
+                                    alt="..." width="30px"></i></button>
+                        <button type="button" class="btn btn-secondary" title="Add to Wishlist"><i><img
+                                    src="img/heart.png" alt="..." width="30px"></i></button>
+                        <button type="button" class="btn btn-secondary" title="Add to cart"><i><img
+                                    src="img/add carts.png" alt="..." width="30px"></i></button>
+                    </div>
+                    <div class="card-body">
+                        <h3 class="text-center">Pant2</h3>
+                        <div class="star text-center">
+                            <i class="bi bi-star checked"></i><i class="bi bi-star checked"></i><i
+                                class="bi bi-star checked"></i><i class="bi bi-star checked"></i><i
+                                class="bi bi-star checked"></i>
+                        </div>
+                        <h5>$50.50 <span><i><img src="img/add.png" alt="..." width="20px"></i></span></h5>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 py-3 py-md-0">
+                <div class="card">
+                    <img src="img/pant3.png" alt="...">
+                    <div class="overlay">
+                        <button type="button" class="btn btn-secondary" title="Quick Shop"><i><img src="img/views.png"
+                                    alt="..." width="30px"></i></button>
+                        <button type="button" class="btn btn-secondary" title="Add to Wishlist"><i><img
+                                    src="img/heart.png" alt="..." width="30px"></i></button>
+                        <button type="button" class="btn btn-secondary" title="Add to cart"><i><img
+                                    src="img/add carts.png" alt="..." width="30px"></i></button>
+                    </div>
+                    <div class="card-body">
+                        <h3 class="text-center">Pant3</h3>
+                        <div class="star text-center">
+                            <i class="bi bi-star checked"></i><i class="bi bi-star checked"></i><i
+                                class="bi bi-star checked"></i><i class="bi bi-star checked"></i><i
+                                class="bi bi-star checked"></i>
+                        </div>
+                        <h5>$500.10 <span><i><img src="img/add.png" alt="..." width="20px"></i></span></h5>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 py-3 py-md-0">
+                <div class="card">
+                    <img src="img/pant4.png" alt="...">
+                    <div class="overlay">
+                        <button type="button" class="btn btn-secondary" title="Quick Shop"><i><img src="img/views.png"
+                                    alt="..." width="30px"></i></button>
+                        <button type="button" class="btn btn-secondary" title="Add to Wishlist"><i><img
+                                    src="img/heart.png" alt="..." width="30px"></i></button>
+                        <button type="button" class="btn btn-secondary" title="Add to cart"><i><img
+                                    src="img/add carts.png" alt="..." width="30px"></i></button>
+                    </div>
+                    <div class="card-body">
+                        <h3 class="text-center">Pant4</h3>
+                        <div class="star text-center">
+                            <i class="bi bi-star checked"></i><i class="bi bi-star checked"></i><i
+                                class="bi bi-star checked"></i><i class="bi bi-star checked"></i><i
+                                class="bi bi-star checked"></i>
+                        </div>
+                        <h5>$300.20 <span><i><img src="img/add.png" alt="..." width="20px"></i></span></h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-3 py-3 py-md-0">
+                <div class="card">
+                    <img src="img/h1.png" alt="...">
+                    <div class="overlay">
+                        <button type="button" class="btn btn-secondary" title="Quick Shop"><i><img src="img/views.png"
+                                    alt="..." width="30px"></i></button>
+                        <button type="button" class="btn btn-secondary" title="Add to Wishlist"><i><img
+                                    src="img/heart.png" alt="..." width="30px"></i></button>
+                        <button type="button" class="btn btn-secondary" title="Add to cart"><i><img
+                                    src="img/add carts.png" alt="..." width="30px"></i></button>
+                    </div>
+                    <div class="card-body">
+                        <h3 class="text-center">Hoodies</h3>
+                        <div class="star text-center">
+                            <i class="bi bi-star checked"></i><i class="bi bi-star checked"></i><i
+                                class="bi bi-star checked"></i><i class="bi bi-star checked"></i><i
+                                class="bi bi-star checked"></i>
+                        </div>
+                        <h5>$150.50 <span><i><img src="img/add.png" alt="..." width="20px"></i></span></h5>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 py-3 py-md-0">
+                <div class="card">
+                    <img src="img/h2.png" alt="...">
+                    <div class="overlay">
+                        <button type="button" class="btn btn-secondary" title="Quick Shop"><i><img src="img/views.png"
+                                    alt="..." width="30px"></i></button>
+                        <button type="button" class="btn btn-secondary" title="Add to Wishlist"><i><img
+                                    src="img/heart.png" alt="..." width="30px"></i></button>
+                        <button type="button" class="btn btn-secondary" title="Add to cart"><i><img
+                                    src="img/add carts.png" alt="..." width="30px"></i></button>
+                    </div>
+                    <div class="card-body">
+                        <h3 class="text-center">Hoodies</h3>
+                        <div class="star text-center">
+                            <i class="bi bi-star checked"></i><i class="bi bi-star checked"></i><i
+                                class="bi bi-star checked"></i><i class="bi bi-star checked"></i><i
+                                class="bi bi-star checked"></i>
+                        </div>
+                        <h5>$200.30 <span><i><img src="img/add.png" alt="..." width="20px"></i></span></h5>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 py-3 py-md-0">
+                <div class="card">
+                    <img src="img/h3.png" alt="...">
+                    <div class="overlay">
+                        <button type="button" class="btn btn-secondary" title="Quick Shop"><i><img src="img/views.png"
+                                    alt="..." width="30px"></i></button>
+                        <button type="button" class="btn btn-secondary" title="Add to Wishlist"><i><img
+                                    src="img/heart.png" alt="..." width="30px"></i></button>
+                        <button type="button" class="btn btn-secondary" title="Add to cart"><i><img
+                                    src="img/add carts.png" alt="..." width="30px"></i></button>
+                    </div>
+                    <div class="card-body">
+                        <h3 class="text-center">Hoodies</h3>
+                        <div class="star text-center">
+                            <i class="bi bi-star checked"></i><i class="bi bi-star checked"></i><i
+                                class="bi bi-star checked"></i><i class="bi bi-star checked"></i><i
+                                class="bi bi-star checked"></i>
+                        </div>
+                        <h5>$500.10 <span><i><img src="img/add.png" alt="..." width="20px"></i></span></h5>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 py-3 py-md-0">
+                <div class="card">
+                    <img src="img/h4.png" alt="...">
+                    <div class="overlay">
+                        <button type="button" class="btn btn-secondary" title="Quick Shop"><i><img src="img/views.png"
+                                    alt="..." width="30px"></i></button>
+                        <button type="button" class="btn btn-secondary" title="Add to Wishlist"><i><img
+                                    src="img/heart.png" alt="..." width="30px"></i></button>
+                        <button type="button" class="btn btn-secondary" title="Add to cart"><i><img
+                                    src="img/add carts.png" alt="..." width="30px"></i></button>
+                    </div>
+                    <div class="card-body">
+                        <h3 class="text-center">Hoodies</h3>
+                        <div class="star text-center">
+                            <i class="bi bi-star checked"></i><i class="bi bi-star checked"></i><i
+                                class="bi bi-star checked"></i><i class="bi bi-star checked"></i><i
+                                class="bi bi-star checked"></i>
+                        </div>
+                        <h5>$100.20 <span><i><img src="img/add.png" alt="..." width="20px"></i></span></h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--PRODUCT CARDS-->
+    <!--BANNER-->
+
+    <div class="container">
+        <section class="banner" id="banner">
+            <div class="banner-content">
+                <h1>Special <span>Collection</span></h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur,
+                    <br>Lorem ipsum dolor sit amet.
+                </p>
+                <h5>UPTO 50% OFF</h5>
+                <a href="#" class="btn">Add Cart</a>
+            </div>
+            <div class="img">
+                <img src="img/banner-img.png" alt="...">
+            </div>
+        </section>
+    </div>
+    <!--BANNER-->
+
+    <!--OUTHER PODUCT-->
+    <div class="container" id="product-cards">
+        <div class="row" style="margin-top: 50px;">
+            <div class="col-md-3 py-3 py-md-0">
+             <div class="card">
+                <img src="img/s1.png" alt="...">
+                <div class="card-body">
+                    <h3 class="text-center">Nike Shoes</h3>
+                        <div class="star text-center">
+                            <i class="bi bi-star checked"></i>
+                            <i class="bi bi-star checked"></i>
+                            <i class="bi bi-star checked"></i>
+                            <i class="bi bi-star checked"></i>
+                            <i class="bi bi-star checked"></i>
+                        </div>
+                        <h5>$2000.50 <span><i><img src="img/add.png" alt="..." width="20px"></i></span></h5>
+                </div>
+             </div>
+            </div>
+            <div class="col-md-3 py-3 py-md-0">
+                <div class="card">
+                   <img src="img/s2.png" alt="...">
+                   <div class="card-body">
+                       <h3 class="text-center">Nike Shoes</h3>
+                           <div class="star text-center">
+                               <i class="bi bi-star checked"></i>
+                               <i class="bi bi-star checked"></i>
+                               <i class="bi bi-star checked"></i>
+                               <i class="bi bi-star checked"></i>
+                               <i class="bi bi-star checked"></i>
+                           </div>
+                           <h5>$300.50 <span><i><img src="img/add.png" alt="..." width="20px"></i></span></h5>
+                   </div>
+                </div>
+               </div>
+               <div class="col-md-3 py-3 py-md-0">
+                <div class="card">
+                   <img src="img/s3.png" alt="...">
+                   <div class="card-body">
+                       <h3 class="text-center">Nike Shoes</h3>
+                           <div class="star text-center">
+                               <i class="bi bi-star checked"></i>
+                               <i class="bi bi-star checked"></i>
+                               <i class="bi bi-star checked"></i>
+                               <i class="bi bi-star checked"></i>
+                               <i class="bi bi-star checked"></i>
+                           </div>
+                           <h5>$500.10 <span><i><img src="img/add.png" alt="..." width="20px"></i></span></h5>
+                   </div>
+                </div>
+               </div>
+               <div class="col-md-3 py-3 py-md-0">
+                <div class="card">
+                   <img src="img/s4.png" alt="...">
+                   <div class="card-body">
+                       <h3 class="text-center">Sport Shoes</h3>
+                           <div class="star text-center">
+                               <i class="bi bi-star checked"></i>
+                               <i class="bi bi-star checked"></i>
+                               <i class="bi bi-star checked"></i>
+                               <i class="bi bi-star checked"></i>
+                               <i class="bi bi-star checked"></i>
+                           </div>
+                           <h5>$1000.20 <span><i><img src="img/add.png" alt="..." width="20px"></i></span></h5>
+                   </div>
+                </div>
+               </div>
+        </div>
+        <div class="row" style="margin-top: 50px;">
+            <div class="col-md-3 py-3 py-md-0">
+             <div class="card">
+                <img src="img/s5.png" alt="...">
+                <div class="card-body">
+                    <h3 class="text-center">Adidas Shoes</h3>
+                        <div class="star text-center">
+                            <i class="bi bi-star checked"></i>
+                            <i class="bi bi-star checked"></i>
+                            <i class="bi bi-star checked"></i>
+                            <i class="bi bi-star checked"></i>
+                            <i class="bi bi-star checked"></i>
+                        </div>
+                        <h5>$300.30 <span><i><img src="img/add.png" alt="..." width="20px"></i></span></h5>
+                </div>
+             </div>
+            </div>
+            <div class="col-md-3 py-3 py-md-0">
+                <div class="card">
+                   <img src="img/s6.png" alt="...">
+                   <div class="card-body">
+                       <h3 class="text-center">Adidas Shoes</h3>
+                           <div class="star text-center">
+                               <i class="bi bi-star checked"></i>
+                               <i class="bi bi-star checked"></i>
+                               <i class="bi bi-star checked"></i>
+                               <i class="bi bi-star checked"></i>
+                               <i class="bi bi-star checked"></i>
+                           </div>
+                           <h5>$500.50 <span><i><img src="img/add.png" alt="..." width="20px"></i></span></h5>
+                   </div>
+                </div>
+               </div>
+               <div class="col-md-3 py-3 py-md-0">
+                <div class="card">
+                   <img src="img/s7.png" alt="...">
+                   <div class="card-body">
+                       <h3 class="text-center">Adidas Shoes</h3>
+                           <div class="star text-center">
+                               <i class="bi bi-star checked"></i>
+                               <i class="bi bi-star checked"></i>
+                               <i class="bi bi-star checked"></i>
+                               <i class="bi bi-star checked"></i>
+                               <i class="bi bi-star checked"></i>
+                           </div>
+                           <h5>$600.50 <span><i><img src="img/add.png" alt="..." width="20px"></i></span></h5>
+                   </div>
+                </div>
+               </div>
+               <div class="col-md-3 py-3 py-md-0">
+                <div class="card">
+                   <img src="img/s8.png" alt="...">
+                   <div class="card-body">
+                       <h3 class="text-center">Adidas Shoes</h3>
+                           <div class="star text-center">
+                               <i class="bi bi-star checked"></i>
+                               <i class="bi bi-star checked"></i>
+                               <i class="bi bi-star checked"></i>
+                               <i class="bi bi-star checked"></i>
+                               <i class="bi bi-star checked"></i>
+                           </div>
+                           <h5>$1000.20 <span><i><img src="img/add.png" alt="..." width="20px"></i></span></h5>
+                   </div>
+                </div>
+               </div>
+        </div>
+    </div>
+    <!--OUTHER PRODUCT-->
+
+    <!--BANNER2-->
+    <div class="container">
+        <section class="banner2" id="banner2">
+          <div class="banner2-content">
+            <h1>Electronics <span>Gadgets</span></h1>
+            <h2>Product <span class="bannerchangecontent"></span></h2>
+            <h3>UPTO 50% OFF</h3>
+            <p>Lorem, ipsum dolor sit amet consectetur, adipisicing <br>Lorem ipsum dolor sit amet</p>
+            <a href="#" class="btn">Add Cart</a>
+          </div>
+          <div class="img">
+            <img src="img/headphone.png" alt="...">
+          </div>
+        </section>
+    </div>
+    <!--BANNER2-->
+    <!--electronics gadgets cards-->
+    <div class="container" id="product-cards">
+        <div class="row" style="margin-top: 50px;">
+            <div class="col-md-3 py-3 py-md-0">
+             <div class="card">
+                <div class="overlay">
+                    <button type="button" class="btn btn-secaondary" title="Quick Shop"><i><img src="img/views.png" alt="..." width="30px"></i></button>
+                    <button type="button" class="btn btn-secaondary" title="Add to Wishlist"><i><img src="img/heart.png" alt="..." width="30px"></i></button>
+                    <button type="button" class="btn btn-secaondary" title="Add to Cart"><i><img src="img/add carts.png" alt="..." width="30px"></i></button>
+                </div>
+                <img src="img/w1.png" alt="...">
+                <div class="card-body">
+                    <h3 class="text-center">Smart Watch</h3>
+                    <div class="star text-center">
+                        <i class="bi bi-start checked"></i>
+                        <i class="bi bi-start checked"></i>
+                        <i class="bi bi-start checked"></i>
+                        <i class="bi bi-start checked"></i>
+                        <i class="bi bi-start checked"></i>
+                    </div>
+                    <h5>$2000.50 <span><i><img src="img/add.png" alt="..." width="20px"></i></span></h5>
+                </div>
+             </div>
+            </div>
+            <div class="col-md-3 py-3 py-md-0">
+                <div class="card">
+                   <div class="overlay">
+                       <button type="button" class="btn btn-secaondary" title="Quick Shop"><i><img src="img/views.png" alt="..." width="30px"></i></button>
+                       <button type="button" class="btn btn-secaondary" title="Add to Wishlist"><i><img src="img/heart.png" alt="..." width="30px"></i></button>
+                       <button type="button" class="btn btn-secaondary" title="Add to Cart"><i><img src="img/add carts.png" alt="..." width="30px"></i></button>
+                   </div>
+                   <img src="img/w2.png" alt="...">
+                   <div class="card-body">
+                       <h3 class="text-center">Smart Watch</h3>
+                       <div class="star text-center">
+                           <i class="bi bi-start checked"></i>
+                           <i class="bi bi-start checked"></i>
+                           <i class="bi bi-start checked"></i>
+                           <i class="bi bi-start checked"></i>
+                           <i class="bi bi-start checked"></i>
+                       </div>
+                       <h5>$1000.20 <span><i><img src="img/add.png" alt="..." width="20px"></i></span></h5>
+                   </div>
+                </div>
+               </div>
+               <div class="col-md-3 py-3 py-md-0">
+                <div class="card">
+                   <div class="overlay">
+                       <button type="button" class="btn btn-secaondary" title="Quick Shop"><i><img src="img/views.png" alt="..." width="30px"></i></button>
+                       <button type="button" class="btn btn-secaondary" title="Add to Wishlist"><i><img src="img/heart.png" alt="..." width="30px"></i></button>
+                       <button type="button" class="btn btn-secaondary" title="Add to Cart"><i><img src="img/add carts.png" alt="..." width="30px"></i></button>
+                   </div>
+                   <img src="img/w3.png" alt="...">
+                   <div class="card-body">
+                       <h3 class="text-center">Smart Watch</h3>
+                       <div class="star text-center">
+                           <i class="bi bi-start checked"></i>
+                           <i class="bi bi-start checked"></i>
+                           <i class="bi bi-start checked"></i>
+                           <i class="bi bi-start checked"></i>
+                           <i class="bi bi-start checked"></i>
+                       </div>
+                       <h5>$600.50 <span><i><img src="img/add.png" alt="..." width="20px"></i></span></h5>
+                   </div>
+                </div>
+               </div>
+               <div class="col-md-3 py-3 py-md-0">
+                <div class="card">
+                   <div class="overlay">
+                       <button type="button" class="btn btn-secaondary" title="Quick Shop"><i><img src="img/views.png" alt="..." width="30px"></i></button>
+                       <button type="button" class="btn btn-secaondary" title="Add to Wishlist"><i><img src="img/heart.png" alt="..." width="30px"></i></button>
+                       <button type="button" class="btn btn-secaondary" title="Add to Cart"><i><img src="img/add carts.png" alt="..." width="30px"></i></button>
+                   </div>
+                   <img src="img/smart watch.png" alt="...">
+                   <div class="card-body">
+                       <h3 class="text-center">Smart Watch</h3>
+                       <div class="star text-center">
+                           <i class="bi bi-start checked"></i>
+                           <i class="bi bi-start checked"></i>
+                           <i class="bi bi-start checked"></i>
+                           <i class="bi bi-start checked"></i>
+                           <i class="bi bi-start checked"></i>
+                       </div>
+                       <h5>$1000.20 <span><i><img src="img/add.png" alt="..." width="20px"></i></span></h5>
+                   </div>
+                </div>
+               </div>
+        </div>
+        <div class="row" style="margin-top: 50px;">
+            <div class="col-md-3 py-3 py-md-0">
+             <div class="card">
+                <div class="overlay">
+                    <button type="button" class="btn btn-secaondary" title="Quick Shop"><i><img src="img/views.png" alt="..." width="30px"></i></button>
+                    <button type="button" class="btn btn-secaondary" title="Add to Wishlist"><i><img src="img/heart.png" alt="..." width="30px"></i></button>
+                    <button type="button" class="btn btn-secaondary" title="Add to Cart"><i><img src="img/add carts.png" alt="..." width="30px"></i></button>
+                </div>
+                <img src="img/iphone 13 pro.png" alt="...">
+                <div class="card-body">
+                    <h3 class="text-center">I phone 13 pro</h3>
+                    <div class="star text-center">
+                        <i class="bi bi-start checked"></i>
+                        <i class="bi bi-start checked"></i>
+                        <i class="bi bi-start checked"></i>
+                        <i class="bi bi-start checked"></i>
+                        <i class="bi bi-start checked"></i>
+                    </div>
+                    <h5>$3000.20 <span><i><img src="img/add.png" alt="..." width="20px"></i></span></h5>
+                </div>
+             </div>
+            </div>
+            <div class="col-md-3 py-3 py-md-0">
+                <div class="card">
+                   <div class="overlay">
+                       <button type="button" class="btn btn-secaondary" title="Quick Shop"><i><img src="img/views.png" alt="..." width="30px"></i></button>
+                       <button type="button" class="btn btn-secaondary" title="Add to Wishlist"><i><img src="img/heart.png" alt="..." width="30px"></i></button>
+                       <button type="button" class="btn btn-secaondary" title="Add to Cart"><i><img src="img/add carts.png" alt="..." width="30px"></i></button>
+                   </div>
+                   <img src="img/a1.png" alt="...">
+                   <div class="card-body">
+                       <h3 class="text-center">Samsung Airpod</h3>
+                       <div class="star text-center">
+                           <i class="bi bi-start checked"></i>
+                           <i class="bi bi-start checked"></i>
+                           <i class="bi bi-start checked"></i>
+                           <i class="bi bi-start checked"></i>
+                           <i class="bi bi-start checked"></i>
+                       </div>
+                       <h5>$500.10 <span><i><img src="img/add.png" alt="..." width="20px"></i></span></h5>
+                   </div>
+                </div>
+               </div>
+               <div class="col-md-3 py-3 py-md-0">
+                <div class="card">
+                   <div class="overlay">
+                       <button type="button" class="btn btn-secaondary" title="Quick Shop"><i><img src="img/views.png" alt="..." width="30px"></i></button>
+                       <button type="button" class="btn btn-secaondary" title="Add to Wishlist"><i><img src="img/heart.png" alt="..." width="30px"></i></button>
+                       <button type="button" class="btn btn-secaondary" title="Add to Cart"><i><img src="img/add carts.png" alt="..." width="30px"></i></button>
+                   </div>
+                   <img src="img/laptop1.png" alt="...">
+                   <div class="card-body">
+                       <h3 class="text-center">Best hp laptop</h3>
+                       <div class="star text-center">
+                           <i class="bi bi-start checked"></i>
+                           <i class="bi bi-start checked"></i>
+                           <i class="bi bi-start checked"></i>
+                           <i class="bi bi-start checked"></i>
+                           <i class="bi bi-start checked"></i>
+                       </div>
+                       <h5>$2000.10 <span><i><img src="img/add.png" alt="..." width="20px"></i></span></h5>
+                   </div>
+                </div>
+               </div>
+               <div class="col-md-3 py-3 py-md-0">
+                <div class="card">
+                   <div class="overlay">
+                       <button type="button" class="btn btn-secaondary" title="Quick Shop"><i><img src="img/views.png" alt="..." width="30px"></i></button>
+                       <button type="button" class="btn btn-secaondary" title="Add to Wishlist"><i><img src="img/heart.png" alt="..." width="30px"></i></button>
+                       <button type="button" class="btn btn-secaondary" title="Add to Cart"><i><img src="img/add carts.png" alt="..." width="30px"></i></button>
+                   </div>
+                   <img src="img/headphone2.png" alt="...">
+                   <div class="card-body">
+                       <h3 class="text-center">Gaming headp</h3>
+                       <div class="star text-center">
+                           <i class="bi bi-start checked"></i>
+                           <i class="bi bi-start checked"></i>
+                           <i class="bi bi-start checked"></i>
+                           <i class="bi bi-start checked"></i>
+                           <i class="bi bi-start checked"></i>
+                       </div>
+                       <h5>$100.50 <span><i><img src="img/add.png" alt="..." width="20px"></i></span></h5>
+                   </div>
+                </div>
+               </div>
+        </div>
+    </div>
+    <!--ELECTRONICS GADGETS CARDS-->
+
+    <!--ABOUT US -->
+    <div class="container" id="about">
+        <h2>ABOUT US</h2>
+        <hr>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab fuga id sed voluptas, sunt tempora iure provident hic ad natus? Doloremque fugiat maiores ipsam vero nemo aut! A cum impedit provident magnam corporis iste repudiandae rem laboriosam veritatis incidunt, sequi voluptates facere maxime ipsa, nulla enim assumenda reprehenderit itaque. Est velit natus, tenetur nisi excepturi molestiae veniam iure odio aliquam exercitationem ab dicta a accusamus vero delectus nostrum ex maiores voluptatum facilis? At quis possimus expedita porro atque sed voluptatibus deleniti et repellat eum. Ut natus, architecto tempora sit, qui facilis ipsam quis quasi veritatis aliquid, odit aliquam optio dolorem.</p>
+
+    </div>
+    <hr>
+    <!--ABOUT US -->
+    <!--CONTACT US-->
+    <div class="container" id="contact">
+        <h2>CONTACT US</h2>
+        <hr>
+        <div class="row">
+            <div class="col-md-4 py-3 py-md-0">
+                <img src="img/location.png" alt="..." width="60px">
+                <p>Taliouine tabia bilisi <br>
+                Lorem ipsum dolor sit amet.
+            </p>
+            </div>
+            <div class="col-md-4 py-3 py-md-0">
+                <img src="img/phone.png" alt="..." width="60px">
+                <p>+00000000000000 <br>+00000000000000 </p>
+            </div>
+            <div class="col-md-4 py-3 py-md-0">
+                <img src="img/email.png" alt="..." width="60px">
+                <p>example@gmail.com <br>contact@gmai.com</p>
+            </div>
+        </div>
+        <hr>
+        <div class="row">
+            <div class="col-md-6 py-3 py-md-0">
+                <div class="form-group">
+                    <input type="text" class="form-control" id="usr" placeholder="Your Name">
+                </div>
+                <div class="form-group">
+                    <input type="phone" class="form-control" id="phn" placeholder="Your Phone number">
+                </div>
+            </div>
+            <div class="col-md-6 py-3 py-md-0">
+                <div class="form-group">
+                    <input type="email" class="form-control" id="eml" placeholder="Your Email">
+                </div>
+                <div class="form-group">
+                    <input type="subject" class="form-control" id="Subject" placeholder="Subject">
+                </div>
+            </div>
+        </div>
+        <div class="form-group">
+            <textarea name="..." id="comment" rows="5" placeholder="Type your Message"></textarea>
+        </div>
+        <div id="message">
+            <button>Send Message</button>
+        </div>
+    </div>
+    <!--CONTACT US-->
+
+    <!--Footer-->
+    <footer id="footer" style="margin-top: 50px;">
+    <div class="footer-top">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3 col-md-6 footer-contacat">
+                    <a href="#"><img src="img/logo.png" alt="..." width="32px">Online Shop</a>
+                    <p>Taliouine <br>Tabia <br>Bilisi <br><br>
+                    <strong>Phone:</strong>+00000000000000 <br>
+                <strong>Email:</strong>info@Online-Shop.com</p>
+                </div>
+                <div class="col-lg-3 col-md-6 footer-links">
+                    <h4>Useful links</h4>
+                     <ul>
+                        <li><i class="bi bi-chevron-right"></i><a href="#">Home</a></li>
+                        <li><i class="bi bi-chevron-right"></i><a href="#">About Us</a></li>
+                        <li><i class="bi bi-chevron-right"></i><a href="#">Contact Us</a></li>
+                        <li><i class="bi bi-chevron-right"></i><a href="#">Services</a></li>
+                        <li><i class="bi bi-chevron-right"></i><a href="#">Privacy policy</a></li>
+                     </ul>
+                </div>
+                <div class="col-lg-3 col-md-6 footer-links">
+                    <h4>Our Services</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita, vero.</p>
+                     <ul>
+                        <li><i class="bi bi-chevron-right"></i><a href="#">Pants</a></li>
+                        <li><i class="bi bi-chevron-right"></i><a href="#">Phone</a></li>
+                        <li><i class="bi bi-chevron-right"></i><a href="#">Laptop</a></li>
+                        <li><i class="bi bi-chevron-right"></i><a href="#">Dslr Camera</a></li>
+                        <li><i class="bi bi-chevron-right"></i><a href="#">Tablets</a></li>
+                     </ul>
+                </div>
+                <div class="col-lg-3 col-md-6 footer-links">
+                    <h4>Our Social Network</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati, eius!</p>
+                    <div class="social-links mt-3">
+                        <a href="#" class="twitter"><i class="bi bi-twitter"></i></a>
+                        <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>
+                        <a href="#" class="instagram"><i class="bi bi-instagram"></i></a>
+                        <a href="#" class="google-plus"><i class="bi bi-skype"></i></a>
+                        <a href="#" class="linkedin"><i class="bi bi-linkedin"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container py-4">
+        <div class="copyright">
+            &copy;Copyright <strong><span>Online Shop</span></strong>. All Rights Reserved
+        </div>
+        <div class="credits">
+            Designed by <a href="#">MA coding</a>
+        </div>
+    </div>
+    </footer>
+    <!--Footer-->
+    <a href="#" class="arrow"><i><img src="img/arrow.png" alt="..."></i></a>
+</body>
+
+
+</html>
